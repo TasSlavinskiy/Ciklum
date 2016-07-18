@@ -1,0 +1,1082 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.wrapper {
+    width: 90%;
+    margin: 0 auto;
+    font-size: 0.4em;
+}
+.wrapper .wind img {
+  display: none;
+  padding: 10px 0;
+  width: 108px;
+  height: 23px;
+}
+.nav {
+    height: 48px;
+    background-color: #ffffff;
+    display: inline-block;
+}
+.nav > a  {
+    padding: 0 22px 0 0;
+    float: left;
+    display: block;
+    text-decoration: none;
+
+}
+
+.nav a img {
+  padding: 10px 0;
+  width: 108px;
+  height: 23px;
+}
+.nav ul {
+    line-height: 48px;
+    display: inline-block;
+}
+
+.nav li {
+    list-style: none;
+    display: inline-block;
+}
+
+.nav ul li a {
+    padding: 0 22px;
+    display: block;
+    text-decoration: none;
+    color: #5d646d;
+    font-size: 2em;
+    font-family: Open Sans, sans-serif;
+}
+.nav>ul>li>a:hover {
+    background-color: #f2f2f2 ;
+}
+
+.nav ul li ul {
+    position: absolute;
+    /*display: none;*/
+}
+.nav ul li ul li {
+    float: none;
+    display: block;
+    background: #F2F2F2;
+    font-size: 0.8em;
+    width: 240px;
+
+}
+.nav>ul>li:hover>ul {
+    display: block !important;
+}
+
+.nav ul li ul li a:hover {
+    background-color: #E5E5E5;
+}
+.nav ul li ul li:hover ul{
+    display: block !important;
+    top: 0;
+    left: 240px;
+
+}
+.nav>ul>li>ul>li:hover>ul>li{
+    width: 300px;
+    background-color: #E5E5E5;
+}
+
+.nav>ul>li>ul>li>ul>li a:hover {
+    background-color: #D9D9D9;
+}
+
+.wrapper form {
+    display: inline-flex;
+    float: right;
+    margin: -27px 15px 0 0;
+}
+.wrapper form .lupa {
+  display: none;
+  width: 20px;
+  height: 12px;
+}
+.wrapper .search {
+    height: 32px;
+    width: 250px;
+    border: 1px solid #a9a9a9;
+    min-height: 32px;
+    margin-top: 32px;
+
+}
+.wrapper input[type="search"] {
+    border: none;
+    outline: none;
+    -webkit-appearance: none;
+    width: 210px;
+    vertical-align: middle;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    color: black;
+    font-weight: 400;
+    margin-top: 5px;
+
+}
+.wrapper input[type="submit"] {
+    width: 32px;
+    height: 32px;
+    float: right;
+    margin-right: 5px;
+    border: none;
+    background: url("../image/Microsoft_Navi/1468242617_search.png") no-repeat ;
+    background-size: 18px, 18px;
+    cursor: pointer;
+    background-position: center;
+}
+.wrapper input:hover[type="submit"] {
+    background: url("../image/Microsoft_Navi/1468707471_icon-111-search.png") no-repeat ;
+}
+.wrapper .basket {
+    width: 60px;
+    height: 52px;
+    cursor: pointer;
+    background: url("../image/Microsoft_Navi/1468629320_basket.png") no-repeat;
+    background-size: 20px, 21px;
+    background-position: center;
+    /* display: inline-block; */
+    margin-top: 22px;
+    margin-left: 15px;
+}
+.wrapper .basket a:hover {
+    color: #f2f2f2;
+}
+.wrapper .basket:hover {
+    background-color: #f2f2f2;
+}
+.log_out {
+    width: 60px;
+    height: 50px;
+     display: block;
+     float: right;
+     margin-top: 25px;
+}
+.wrapper form a {
+  text-decoration: none;
+  font-family: 'Open Sans', sans-serif;
+  color: #613e54;
+}
+.log_out span{
+    font-size: 12px;
+    position: relative;
+    top: 15px;
+    left: 15px
+}
+.log_out:hover {
+    background-color: #f2f2f2;
+}
+.log_out span:hover {
+  color: #0078d7;
+}
+@media screen and (max-width: 1050px ) {
+    .search{
+        border: none;
+    }
+    input[type="search"] {
+        display: none;
+    }
+}
+.content {
+  width: 100%;
+  height: 700px;
+  background: #f7f7f7;
+  box-sizing: border-box;
+}
+.content .page {
+  width: 52%;
+  height: 700px;
+  float: right;
+  background-image: url("../background--pc--female@2x-vflM_eOcT.jpg");
+  background-position: ;
+}
+.content .bucup {
+  width: 48%;
+  height: 700px;
+  float: left;
+  background: #f7f7f7;
+  box-sizing: border-box;
+}
+.wrapper_bucup {
+  width: 425px;
+  height: 530px;
+  float: right;
+  margin-top: 120px;
+}
+.content .bucup .wrapper_bucup h1 {
+  font-family: Open Sans, sans-serif;
+  font-weight: 300;
+  color: rgba(71, 82, 93, 1);
+  font-size: 50px;
+  line-height: 67px;
+  padding-bottom: 35px;
+}
+.content .bucup .wrapper_bucup p {
+  font-family: Open Sans, sans-serif;
+  font-weight: 300;
+  color: rgba(71, 82, 93, 1);
+  line-height: 30px;
+  font-size: 21px;
+  padding-bottom: 57px;
+}
+.content .bucup .wrapper_bucup button {
+  width: 240px;
+  height: 60px;
+  cursor: pointer;
+  background: rgba(0, 113, 224, 1);
+  border-radius: 5px;
+  border-top: 1px solid #7cb4ec;
+  border-bottom: 1px solid #7cb4ec;
+  border-left: none;
+  border-right: none;;
+}
+.content .bucup .wrapper_bucup button:hover {
+  background: rgba(51, 152, 234, 1);
+}
+.content .bucup .wrapper_bucup a{
+  text-decoration: none;
+  font-family: Open Sans, sans-serif;
+  font-weight: 400;
+  color: #fff;
+  font-size: 21px;
+}
+.content  .bucup .wrapper_bucup .buy {
+  position: relative;
+  top: 21px;
+}
+.content .bucup .wrapper_bucup .buy {
+  font-size: 16px;
+  font-family: sans-serif;
+  color: rgba(76, 82, 93, 1);
+}
+.content .bucup .wrapper_bucup .buy a{
+  color: rgba(0, 113, 224, 1);
+  font-size: 16px;
+  font-family: sans-serif;
+  border-bottom: solid 2px rgba(123, 179, 235, 1);
+}
+.content .bucup .wrapper_bucup .buy a:hover {
+  color: rgba(57, 152, 234, 1);
+}
+.subscription {
+  width: 100%;
+  height: 490px;
+  background: #323a45;
+  padding-top: 165px;
+  box-sizing: border-box;
+}
+.subscription form {
+    margin-left: 10%;
+    margin-right: auto;
+    margin: 0 auto;
+    max-width: 1186px;
+    /*padding: 0 40px;*/
+    margin-top: 60px;
+  /*margin-left: 4.978038067349927%;*/
+}
+.subscription h1 {
+  font-family: Open Sans, sans-serif;
+  font-weight: 300;
+  font-size: 30px;
+  text-align: center;
+  color: #fff;
+}
+.subscription h1 span {
+  font-weight: 600;
+}
+.subscription form input {
+
+  height: 63px;
+  margin-left: 5px;
+  border-radius: 3px;
+  border: none;
+}
+.subscription form input[type="submit"] {
+  background-color: #ff3366;
+  cursor: pointer;
+  color: #fff;
+  font-weight: 600;
+  font-size: 15px;
+  font-family: Open Sans, sans-serif;
+  -moz-transition: background-color 0.3s 0.1s ease;
+  -o-transition: background-color 0.3s 0.1s ease;
+  -webkit-transition: background-color 0.3s 0.1s ease;
+  position: relative;
+  top: -2px;
+  width: 290px;
+}
+.subscription form input:hover[type="submit"] {
+  background-color: #f42156;
+}
+.subscription form input[type="text"],[type="email"],[type="password"] {
+  font-size: 20px;
+  font-family: Open Sans, sans-serif;
+  display: inline-block;
+  width: 280px;
+}
+.subscription p {
+  text-align: center;
+  margin-top: 40px;
+  font-family: Open Sans, sans-serif;
+  font-size: 12px;
+  color: #5d646d;
+}
+.subscription p a {
+  color: #5d646d;
+}
+.subscription p a:hover {
+  color: #fff;
+}
+.oculus {
+  max-width: 100%;
+  color: #fff;
+}
+.oculus .valkyrie {
+  max-width: 33.33%;
+  /*height: 200px;*/
+  display: inline-block;
+  cursor: pointer;
+  background: #282828;
+  overflow:hidden;
+  position: relative;
+}
+.oculus .valkyrie img {
+  opacity: .3;
+  -moz-transition: all 0.5s ease-out;
+  -o-transition: all 0.5s ease-out;
+  -webkit-transition: all 0.5s ease-out;
+}
+.oculus .valkyrie img:hover {
+  -moz-transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  -o-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+  transition: 0.5s ease-out 0.1s;
+  filter:alpha(opacity=100);
+  -moz-opacity:1;
+  -khtml-opacity:1;
+  opacity: 1;
+}
+.oculus .valkyrie h4 {
+  position: absolute;
+  left: 139px;
+  top: 110px;
+  color: #fff;
+  font-size: 14px;
+  font-family: Open Sans, sans-serif;
+  font-weight: 400;
+  z-index: 1;
+  opacity: .7;
+}
+.oculus .valkyrie h3 {
+  position: absolute;
+  left: 145px;
+  top: 130px;
+  color: #fff;
+  font-family: Open Sans, sans-serif;
+  filter:alpha(opacity=100);
+  -moz-opacity:1;
+  -khtml-opacity:1;*/
+  opacity: .1;
+  z-index: 3;
+}
+.oculus .luckys {
+  max-width: 33.33%;
+  margin-left: -4px;
+  display: inline-block;
+  cursor: pointer;
+  background: #282828;
+  overflow:hidden;
+  position: relative;
+}
+.oculus .luckys img {
+  opacity: .3;
+  -moz-transition: all 0.5s ease-out;
+  -o-transition: all 0.5s ease-out;
+  -webkit-transition: all 0.5s ease-out;
+}
+.oculus .luckys img:hover {
+  -moz-transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  -o-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+  transition: 0.5s ease-out 0.1s;
+  filter:alpha(opacity=100);
+  -moz-opacity:1;
+  -khtml-opacity:1;
+  opacity: 1;
+}
+.oculus .luckys h4 {
+  position: absolute;
+  left: 90px;
+  top: 110px;
+  color: #fff;
+  font-size: 14px;
+  font-family: Open Sans, sans-serif;
+  font-weight: 400;
+  z-index: 1;
+  opacity: .7;
+}
+.oculus .luckys h3 {
+  position: absolute;
+  left: 150px;
+  top: 130px;
+  color: #fff;
+  font-family: Open Sans, sans-serif;
+  filter:alpha(opacity=100);
+  -moz-opacity:1;
+  -khtml-opacity:1;
+  opacity: 1;
+  z-index: 3;
+}
+.oculus .stage {
+  max-width: 33.33%;
+  margin-left: -4px;
+  display: inline-block;
+  cursor: pointer;
+  background: #282828;
+  overflow:hidden;
+  position: relative;
+}
+.oculus .stage img {
+  opacity: .3;
+  -moz-transition: all 0.5s ease-out;
+  -o-transition: all 0.5s ease-out;
+  -webkit-transition: all 0.5s ease-out;
+}
+.oculus .stage img:hover {
+  -moz-transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  -o-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+  transition: 0.5s ease-out 0.1s;
+  filter:alpha(opacity=100);
+  -moz-opacity:1;
+  -khtml-opacity:1;
+  opacity: 1;
+}
+.oculus .stage h4 {
+  position: absolute;
+  left: 157px;
+  top: 110px;
+  color: #fff;
+  font-size: 14px;
+  font-family: Open Sans, sans-serif;
+  font-weight: 400;
+  z-index: 1;
+  opacity: .7;
+}
+.oculus .stage h3 {
+  position: absolute;
+  left: 65px;
+  top: 130px;
+  color: #fff;
+  font-family: Open Sans, sans-serif;
+  filter:alpha(opacity=100);
+  -moz-opacity:1;
+  -khtml-opacity:1;
+  opacity: 1;
+  z-index: 3;
+}
+.footer {
+  width: 100%;
+  height: 352px;
+  padding-top: 37px;
+  padding-left: 59px;
+  margin-top: -10px;
+  background: #f2f2f2;
+  box-sizing: border-box;
+}
+.footer .colon_prod {
+  width: 70%;
+  margin: 0 auto;
+}
+.footer .colon_prod li {
+  list-style: none;
+  /*margin-top: 2px;*/
+}
+.footer .colon_prod .coln{
+  display: inline-block;
+}
+.footer .colon_prod .coln h4{
+  font-family: Open Sans, sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  color: #333333
+}
+.footer .colon_prod .coln a{
+  text-decoration: none;
+  font-family: Open Sans, sans-serif;
+  font-size: 11px;
+  font-weight: 300;
+  color: #666666;
+}
+.footer .colon_prod a:hover {
+  text-decoration: underline;
+}
+#colons2 {
+  position: relative;
+  top: -107px;
+  left: 70px;
+}
+#colons2 h4 {
+  color: #333333;
+}
+#colons3 {
+  position: relative;
+  top: -124px;
+  left: 126px;
+}
+#colons4 {
+  position: relative;
+  top: -64px;
+  left: 15px;
+}
+#colons5 {
+  position: relative;
+  top: -105px;
+  left: 127px;
+}
+#colons6 {
+  position: relative;
+  top: -10px;
+  left: -23px;
+}
+#colons7 {
+  position: relative;
+  top: -69px;
+  left: 54px;
+}
+.footer .foot_down {
+  width: 70%;
+  height: 30px;
+  margin: 0 auto;
+  margin-top: 28px;
+  background: #f2f2f2;
+}
+.footer .foot_down span{
+  font-family: Open Sans, sans-serif;
+  font-size: 11px;
+  color: #999;
+}
+.footer .foot_down hr {
+  margin-top: 10px;
+  opacity: .1;
+  margin-bottom: 10px;
+}
+.footer .foot_down .lang {
+  float: right;
+}
+
+.footer .foot_down .lang p {
+  margin-top: -20px;
+  margin-left: 21px;
+}
+.footer .foot_down a {
+  text-decoration: none;
+  color: #0088cc;
+}
+.footer .foot_down span a:hover {
+  text-decoration: underline;
+  color: #000;
+}
+.footer .foot_down span .lang {
+  color: #000;
+}
+.footer .foot_down .list_item li{
+  display: inline-block;
+  list-style: none;
+  font-family: Open Sans, sans-serif;
+  font-size: 11px;
+  color: #666;
+  border-left: 1px solid #e3e3e3;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+.footer .foot_down .list_item li:first-child {
+  border: none;
+  padding-left: 0;
+}
+.footer .foot_down .list_item ul {
+  padding-bottom: 30px;
+}
+.footer .foot_down .list_item a {
+  color: #666666;
+}
+.footer .foot_down .list_item a:hover {
+  text-decoration: underline;
+  color: #000;
+}
+@media screen and (max-width:1930px) and (min-width:1600px) {
+  .oculus .valkyrie h4 {
+    left: 200px;
+    top: 130px;
+    text-align: center;
+  }
+  .oculus .valkyrie h3 {
+    left: 210px;
+    top: 150px;
+  }
+  .oculus .luckys h3 {
+    left: 200px;
+    top: 150px;
+  }
+  .oculus .luckys h4 {
+    left:140px;
+    top:130px;
+  }
+  .oculus .stage h4 {
+    left: 230px;
+    top: 140px;
+  }
+  .oculus .stage h3 {
+    left: 140px;
+    top: 160px;
+  }
+  .footer .colon_prod {
+    width: 60%;
+  }
+  .footer .foot_down {
+    width: 60%;
+  }
+}
+@media screen and (max-width:1165px) and (min-width:1000px){
+  .subscription form input[type="text"], [type="email"], [type="password"] {
+    width: 180px;
+  }
+  .subscription .form {
+    width: 750px;
+    margin: 0 auto;
+  }
+  .oculus .valkyrie h4 {
+    left:120px;
+    top:90px;
+  }
+  .oculus .valkyrie h3 {
+    left: 130px;
+    top: 108px;
+  }
+  .oculus .luckys h4 {
+    left: 70px;
+    top: 95px;
+  }
+  .oculus .luckys h3 {
+    left: 137px;
+    top: 115px;
+  }
+  .oculus .stage h4 {
+    left: 140px;
+    top: 100px;
+  }
+  .oculus .stage h3 {
+    font-size: 14px;
+    left: 78px;
+    top: 123px;
+  }
+}
+@media screen and (max-width:1300px) {
+  .footer {
+    padding-left: 3%;
+  }
+  .footer .colon_prod {
+    width: 98%;
+  }
+  .footer .foot_down {
+    width: 98%;
+  }
+}
+@media screen and (max-width:1000px) and (min-width:800px) {
+  .subscription form {
+    width: 586px;
+  }
+  .subscription form input[type="submit"] {
+    width: 210px;
+    margin-left: 180px;
+    margin-top: 10px;
+    font-size: 13px;
+  }
+  .subscription form input[type="text"], [type="email"], [type="password"] {
+    width: 180px;
+  }
+  .subscription p {
+    margin-top: 10px;
+  }
+  .wrapper .search {
+    display: none;
+  }
+  .content .bucup {
+    margin: 0 auto;
+    float: none;
+  }
+  .content .bucup .wrapper_bucup button {
+    margin-left: 20%;
+  }
+  .content .bucup .wrapper_bucup p {
+    text-align: center;
+  }
+  .content .page {
+    display: none;
+  }
+  .content .bucup .wrapper_bucup .buy {
+    margin-left: 33%;
+  }
+  .oculus .valkyrie h4 {
+    left: 72px;
+    top: 63px;
+  }
+  .oculus .valkyrie h3 {
+  left: 84px;
+  top: 91px;
+  }
+  .oculus .luckys h4 {
+    left: 15px;
+    top: 65px;
+  }
+  .oculus .luckys h3 {
+    left: 80px;
+    top: 92px;
+  }
+  .oculus .stage h4 {
+    left: 85px;
+    top: 66px;
+  }
+  .oculus .stage h3 {
+    font-size: 13px;
+    left: 30px;
+    top: 85px;
+  }
+  .footer {
+    width: 100%;
+    height: 100%;
+  }
+  #colons7 {
+    position: static;
+    margin-top: 15px;
+  }
+}
+@media screen and (max-width:799px) and (min-width:540px) {
+  .nav {
+    display: none;
+  }
+  .wrapper .wind img {
+    display: inline-block;
+  }
+  .wrapper .search {
+    display: none;
+  }
+  .content .bucup {
+    float: left;
+    margin: 0 auto;
+    width: 480px;
+    overflow: hidden;
+  }
+  .content .page {
+    display: none;
+  }
+  .content .bucup .wrapper_bucup p {
+    text-align: center;
+  }
+  .content .bucup .wrapper_bucup button {
+    margin-left: 90px;
+  }
+  .content .bucup .wrapper_bucup .buy {
+    margin-left: 145px;
+  }
+  .subscription h1 {
+    max-width: 500px;
+    text-align: center;
+    font-size: 16px;
+  }
+  .subscription {
+    padding-top: 15px;
+    width: 100%;
+    overflow: hidden;
+  }
+  .footer {
+    width: 100%;
+    height: 100%;
+  }
+  .oculus {
+    max-width: 100%;
+  }
+  header {
+    max-width: 100%;
+  }
+  .wrapper {
+    max-width: 90%;
+  }
+  .subscription form {
+    width: 60%;
+    margin: 0 auto;
+  }
+  .subscription form input[type="text"], [type="email"], [type="password"] {
+    width: 290px;
+    display: inline-block;
+    margin-top: 10px;
+  }
+  .subscription p {
+    width: 70%;
+    text-align: center;
+    margin: 0 auto;
+  }
+  .subscription form input[type="submit"] {
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+  .oculus {
+    width: 100%;
+    position: relative;
+  }
+  .oculus .valkyrie {
+    min-width: 540px;
+    max-width: 799px;
+    min-height: 280px;
+    max-height: 400px;
+    display: block;
+  }
+  .oculus .valkyrie img {
+    min-width: 540px;
+    max-width: 799px;
+    min-height: 280px;
+    max-height: 400px;
+  }
+  .oculus .valkyrie h4 h3  {
+    display: none;
+    z-index: 0;
+  }
+  .oculus .luckys  {
+    min-width: 540px;
+    max-width: 799px;
+    min-height: 280px;
+    max-height: 400px;
+    display: block;
+  }
+  .oculus .luckys img {
+    min-width: 540px;
+    max-width: 799px;
+    min-height: 280px;
+    max-height: 400px;
+  }
+  .oculus .stage  {
+    min-width: 540px;
+    max-width: 799px;
+    min-height: 280px;
+    max-height: 400px;
+    display: block;
+  }
+  .oculus .stage img {
+    min-width: 540px;
+    max-width: 799px;
+    min-height: 280px;
+    max-height: 400px;
+  }
+  .footer .colon_prod {
+    width: 40%;
+  }
+  .footer .colon_prod .coln {
+    display:  table-row;
+    text-align: center;
+    padding-bottom: 15px;
+  }
+  .footer .foot_down span {
+    font-size: 10px;
+  }
+  .footer .foot_down span .lang {
+    display: none;
+  }
+}
+@media screen and (max-width:540px) {
+*{
+  margin: 0;
+  padding: 0;
+}
+  body {
+    background: #f7f7f7;
+  }
+  header .wrapper .nav {
+    display: none;
+  }
+  .wrapper .wind img {
+    display: inline-block;
+  }
+  .wrapper .search {
+    display: none;
+  }
+  .content {
+    max-width: 100%;
+    height: 200px;
+  }
+  .content .bucup {
+    margin: 0 auto;
+    width: 60%;
+    margin-left: 200px;
+    height: 450px;
+  }
+  .content .bucup .wrapper_bucup h1 {
+    font-size: 25px;
+    text-align: center;
+  }
+  .wrapper_bucup {
+    margin-top: 0;
+    width: 470px;
+  }
+  .content .page {
+    display: none;
+  }
+  .content .bucup .wrapper_bucup p {
+    text-align: center;
+    font-size: 15px;
+  }
+  .content .bucup .wrapper_bucup button {
+    width: 212px;
+    width: 0 auto;
+    margin-left: 140px;
+  }
+  .content .bucup .wrapper_bucup .buy {
+    margin-left: 145px;
+  }
+  .content .bucup .wrapper_bucup .buy a {
+    font-size: 15px;
+    margin-left: 5px;
+  }
+
+  .subscription h1 {
+    max-width: 225px;
+    text-align: center;
+    font-size: 14px;
+    margin-left: 45px;
+  }
+  .subscription {
+    padding-top: 15px;
+    width: 100%;
+    overflow: hidden;
+  }
+  .footer {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+  }
+  .oculus {
+    max-width: 100%;
+  }
+  header {
+    max-width: 100%;
+  }
+  .wrapper {
+    max-width: 90%;
+  }
+  .subscription form {
+    width: 81%;
+    margin: 0 auto;
+  }
+  .subscription form input[type="text"], [type="email"], [type="password"] {
+    width: 260px;
+    display: inline-block;
+    margin-top: 15px;
+    float: left;
+  }
+  .subscription p {
+    width: 70%;
+    text-align: center;
+    margin: 0 auto;
+  }
+  .subscription form input[type="submit"] {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    width: 260px;
+  }
+  .oculus {
+    width: 100%;
+    position: relative;
+  }
+  .oculus .valkyrie {
+    min-width: 320px;
+    max-width: 540px;
+    min-height: 200px;
+    max-height: 300px;
+    display: block;
+  }
+  .oculus .valkyrie img {
+    min-width: 320px;
+    max-width: 540px;
+    min-height: 200px;
+    max-height: 300px;
+  }
+  .oculus .valkyrie h4 h3  {
+    display: none;
+    z-index: 0;
+  }
+  .oculus .luckys  {
+    min-width: 320px;
+    max-width: 540px;
+    min-height: 200px;
+    max-height: 300px;
+    display: block;
+  }
+  .oculus .luckys img {
+    min-width: 320px;
+    max-width: 540px;
+    min-height: 200px;
+    max-height: 300px;
+  }
+  .oculus .stage  {
+    min-width: 320px;
+    max-width: 540px;
+    min-height: 200px;
+    max-height: 300px;
+    display: block;
+  }
+  .oculus .stage img {
+    min-width: 320px;
+    max-width: 540px;
+    min-height: 200px;
+    max-height: 300px;
+  }
+  .oculus .valkyrie h4 {
+    left: 96px;
+    top: 87px;
+    }
+    .oculus .valkyrie h3 {
+      left: 108px;
+      top: 114px;
+      }
+      .oculus .luckys h4 {
+        left: 40px;
+        top: 95px;
+        }
+        .oculus .luckys h3 {
+          left: 110px;
+          top: 125px;
+          }
+          .oculus .stage h4 {
+            left: 102px;
+            top: 80px;
+            }
+            .oculus .stage h3 {
+              left: 36px;
+              top: 110px;
+              font-size: 15px;
+              }
+  .footer .colon_prod {
+    width: 40%;
+    padding: none;
+  }
+  .footer .colon_prod .coln {
+    display:  table-row;
+    text-align: center;
+    padding-bottom: 15px;
+  }
+  .footer .foot_down span {
+    font-size: 10px;
+  }
+  .footer .foot_down span .lang {
+    display: none;
+  }
+}

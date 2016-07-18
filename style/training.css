@@ -1,0 +1,154 @@
+* {
+    padding: 0;
+    margin:  0;
+}
+nav.bet {
+    background-color: white;
+    border-bottom: 1px solid #fbc6d5;
+    box-shadow: 0 6px 0 0 #f02b63;
+    line-height: 40px;
+    margin: 245px 0 0 0;
+    padding: 0 0 35px 15px;
+    font-family: Calibri;
+    float: none;
+}
+a.beta {
+
+    margin: 0 55px 0 0;
+    display: inline-block;
+}
+
+
+nav.bet a .arrow {
+    display: none;
+}
+nav a:hover .arrow {
+    display: block;
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-bottom: 10px solid red;
+    bottom: -1px;
+    left: 50%;
+    margin-left: -5px;
+}
+nav.bet a.beta:hover {
+    color: #f02b63;
+}
+
+
+.bet .beti li {
+    position: relative;
+    float: left;
+    display: block;
+
+
+}
+.bet .beti li a {
+    display: block;
+    position: relative;
+    font-family: Calibri;
+    text-decoration: none;
+    color: black;
+
+
+}
+.bet .beti ul {
+    text-decoration: none;
+    cursor: pointer;
+    display: none;
+    position: absolute;
+
+    margin: -10px 0 0 0;
+    box-shadow: 0 0 1px -5px rgba(0, 0, 0, .175);
+    border: 1px solid #cccccc;
+    border-radius:0 0 5px 5px;
+    border-top: none;
+    background-color: #ffffff;
+
+
+}
+
+.bet .beti ul li {
+    text-decoration: none;
+    float: none;
+    background-color: cccccc;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 0 5px 0 5px;
+    margin: 0 -3px 0 0;
+
+}
+
+
+.bet li:hover > ul {
+    display: block;
+    text-decoration: none;
+    animation-name:  drop-dawn;
+    animation-duration: 1s;
+    animation-timing-function: ease;
+}
+
+.bet .beti  ul li:hover > ul {
+    animation-name: drop-bob;
+}
+
+
+
+
+.bet .beti ul li:hover {
+    display: block;
+    background-color: #c9c9c9;
+    width: 100%;
+}
+.bet .beti ul .olex1 {
+    position: absolute;
+    margin: -37px 0  0 69px ;
+    border: 1px solid #cccccc;
+    border-radius:0 6px 6px 6px;
+
+}
+
+.bet .beti ul ul.olex2 {
+    position: absolute;
+    margin: -37px 0  0 69px ;
+    border: 1px solid #cccccc;
+    border-radius:0 5px 5px 5px;
+
+}
+.bet .beti ul ul.olex3 {
+    position: absolute;
+    margin: -37px 0  0 69px ;
+    border: 1px solid #cccccc;
+    border-radius:0 5px 5px 5px;
+
+}
+/*@keyframes drop-dawn {
+    0% {
+        opacity: 0;
+        max-height: 0;
+    }
+    70% {
+        opacity: 0.95;
+    }
+    100% {
+        opacity: 1;
+        max-height: 500px;
+    }
+}
+@keyframes drop-bob {
+    0% {
+        opacity: 0;
+        max-height: 0;
+    }
+
+    90%{
+        opacity: 0.9;
+    }
+    100% {
+        opacity: 1;
+        max-height: 300px;
+    }
+}*/
